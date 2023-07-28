@@ -49,7 +49,7 @@ Finally, once the model is trained.. loading the misclassified images & gradCAM 
 from utils import plot_missclassified_preds, plot_grad_cam
 
 plot_missclassified_preds(dataset_mean, dataset_std, count=15)
-plot_grad_cam(model, dataset_mean, dataset_std, count=15, missclassfied=True)
+plot_grad_cam(model, dataset_mean, dataset_std, count=15, missclassified=True)
 ```
 
 Happy Modeling :-) 
